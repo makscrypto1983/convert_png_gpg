@@ -1,0 +1,19 @@
+#!/bin/bash
+set -e
+
+# Создание символической ссылки для команды
+if [ ! -f /usr/local/bin/png-to-jpg ]; then
+    ln -sf /usr/bin/png-to-jpg /usr/local/bin/png-to-jpg
+fi
+
+# Обновление кэша иконок
+if [ -x /usr/bin/gtk-update-icon-cache ]; then
+    gtk-update-icon-cache -f -q /usr/share/icons/hicolor/ 2>/dev/null || true
+fi
+
+# Обновление кэша приложений
+if [ -x /usr/bin/update-desktop-database ]; then
+    update-desktop-database -q /usr/share/applications 2>/dev/null || true
+fi
+
+exit 0

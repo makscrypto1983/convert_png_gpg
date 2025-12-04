@@ -1,0 +1,17 @@
+{
+  "default_output_directory": "/home/maksim/SYNC/КРИПТОПРОЕКТ/JPG_WEB",
+  "default_quality": 50,
+  "create_subfolder_with_date": true,
+  "overwrite_existing_files": false,
+  "supported_input_formats": [
+    ".png"
+  ],
+  "default_naming_pattern": "{filename}_converted.jpg",
+  "max_threads": 4,
+  "theme_preference": "system",
+  "last_input_directory": "/home/maksim/SYNC/КРИПТОПРОЕКТ/изображения",
+  "last_target_width": 1366,
+  "last_target_height": 768,
+  "last_preserve_aspect_ratio": true,
+  "last_resolution_preset": "1366x768"
+}

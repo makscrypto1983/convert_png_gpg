@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=PNG to JPG Converter
+Comment=A simple GUI application to convert PNG images to JPG format
+Exec=/usr/bin/python3 /usr/bin/png-to-jpg
+Icon=/usr/share/icons/hicolor/256x256/apps/png-to-jpg-converter.png
+Terminal=false
+Categories=Graphics;RasterGraphics;GTK;

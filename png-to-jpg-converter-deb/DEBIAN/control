@@ -1,0 +1,10 @@
+Package: png-to-jpg-converter
+Version: 1.0.0
+Section: graphics
+Priority: optional
+Architecture: all
+Depends: python3, python3-pil, python3-tk, python3-ttkthemes | tcl-ttkthemes
+Maintainer: Developer <developer@example.com>
+Description: A simple GUI application to convert PNG images to JPG format
+ This application provides a graphical interface for converting
+ PNG images to JPG format with customizable quality settings.

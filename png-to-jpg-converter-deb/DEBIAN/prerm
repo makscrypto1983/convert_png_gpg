@@ -1,0 +1,9 @@
+#!/bin/bash
+set -e
+
+# Удаление символической ссылки
+if [ -L /usr/local/bin/png-to-jpg ]; then
+    rm -f /usr/local/bin/png-to-jpg
+fi
+
+exit 0
